@@ -1,0 +1,47 @@
+name: flutter_application_4
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.2.3 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  url_launcher: ^6.0.9
+  video_player: ^2.8.5
+  youtube_player_flutter: ^8.1.2
+  flutter_tts: ^3.7.0
+  speech_to_text: ^6.3.0
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+  dart_openai: ^4.0.0
+  intl:
+  google_generative_ai: ^0.3.1
+  google_fonts: 6.1.0
+  flutter_dotenv: ^5.1.0
+ 
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+  flutter_launcher_icons: ^0.9.2
+
+flutter_icons:
+  android: true
+  image_path: "lib/assets/logo.png"
+
+flutter:
+  uses-material-design: true
+  assets:
+    - lib/assets/images.jpeg
+    - lib/assets/download.jpeg
+    - lib/assets/quiz.jpeg
+    - lib/assets/bgimage.jpg
+    - lib/assets/logo.png
+    - lib/assets/bgimage2.jpg
+    - lib/assets/sdg.png
+    - lib/.env
