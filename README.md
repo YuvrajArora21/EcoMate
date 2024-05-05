@@ -1,3 +1,3 @@
-# flutter_application_4
+# EcoMate
 
-A new Flutter project.
+EcoMate is an sustainable living companion that makes your life more sustainable.
